@@ -7,6 +7,7 @@
     border-radius: 2px;
 }
 
+/*
 @media (prefers-color-scheme: dark){
     body{background: #1e1e1e; color: #fcfcfc;}
     a, .link, ul .dropdown_btn{
@@ -16,6 +17,7 @@
         background: #1e1e1eaa;
     }
 }
+*/
 
 .spacein{
     margin: 5px;
@@ -50,11 +52,11 @@ a,p,pre{font-size: 18px; font-weight: 400;}
 /*Grid*/
 .page_container,.nav_container{
     display: block;
-    width: 88%;
+    width: 92%;
     margin: auto;
-    padding: 10px 30px;
+    padding: 10px;
 }
-.outline{border: 1px solid #000; padding: 4px; border-radius: 10px; width: 84%;}
+.outline{border: 1px solid #000; padding: 4px; border-radius: 10px; width: 90%;}
 footer{position: relative; width: 100%;}
 .row{display: inline-flex;}
 .column{display: inline-block; vertical-align: top;}
@@ -548,14 +550,15 @@ input[type=range]{
     -moz-appearance: none;
     width: 100%;
     background: rgba(125, 125, 125, 0.4);
-    height: 1%;
+    height: 6px;
+    border-radius: 90px;
 }
 input[type=range]:hover{background: rgba(125, 125, 125, 0.6);}
 
 input[type=range]::-moz-range-thumb{
     -moz-appearance: none;
-    height: 24px;
-    width: 8px;
+    height: 26px;
+    width: 10px;
     border-radius: 100px;
     background: rgba(6, 167, 221, 1);
 }
@@ -567,7 +570,7 @@ input[type=range]::-webkit-slider-thumb{
     border-radius: 100px;
     background: rgba(6, 167, 221, 1);
 }
-input[type=range]:active::-webkit-slider-thumb{background: rgba(125, 125, 125, 0.6);}
+input[type=range]:active::-webkit-slider-thumb{background: #3C3C3C;}
 input[type=range]::-ms-thumb{
     -ms-appearance: none;
     appearance: none;
@@ -588,8 +591,8 @@ input[type=radio],.radioinfo{
     background: #FFF;
     border-radius: 90px;
     border:2px solid #000;
-    margin-left: 5%;
-    margin-right: 5%;
+    margin-left: 5px;
+    margin-bottom: -5px;
 }
 input[type=radio]:hover{background: rgba(125, 125, 125, 0.6);}
 input[type=radio]:checked{background: rgba(0, 0, 0, 0.8); border: 5px solid #FFF; box-shadow: 0px 0px 2px 2px #06A7DD}
@@ -1042,6 +1045,7 @@ img.square{
 
 
 
+/*
 @media (prefers-color-scheme: dark){
     .ms-icon{
         color: #fcfcfc;
@@ -1129,3 +1133,4 @@ img.square{
     li:hover{border-left: 4px solid #000; transition: 200ms; background: rgba(200, 200, 200, 0.6);}
 
 }
+*/
